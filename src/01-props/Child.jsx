@@ -2,10 +2,6 @@ import React from "react"
 
 class Child extends React.Component {
 
-    constructor(props) {
-        super(props)
-    }
-
     changeChild2Text = () => {
         this.props.changeChild2Text('子组件二的内容被我改变咯~~')
     }
